@@ -43,3 +43,19 @@ INNER JOIN Companies ON Employees.Company = Companies.ID WHERE Companies.Data < 
 
 # 16
 INNER JOIN Companies ON Employees.Company = Companies.ID WHERE Employees.Role = 'graphic designer';
+
+# 17 is done
+
+# 18
+SELECT name FROM WHERE points = (SELECT MAX(points) FROM students);
+
+# 19
+SELECT AVG(points) AS AvgPoints FROM students;
+
+# 20
+
+# 21
+SELECT name FROM students WHERE name LIKE '%s%';
+
+# 22
+SELECT * FROM student ORDER BY points desc;
